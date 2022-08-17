@@ -59,9 +59,13 @@ addMinutes.addEventListener('click', function() {
 
   timer.updateMinutes(minutes + 5);
   timer.updateDisplay(minutes + 5, 0);
-  timer.updateMinutes(minutes - 5)
-  timer.updateDisplay(minutes - 5, 0);
+})
 
+removeMinutes.addEventListener('click', function(){
+  let minutes = parseInt(String(minutesDisplay.textContent));
+
+  timer.updateMinutes(minutes - 5);
+  timer.updateDisplay(minutes - 5, 0);
 })
 
 

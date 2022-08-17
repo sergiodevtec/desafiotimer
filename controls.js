@@ -21,14 +21,6 @@ export default function Controls({
       buttonStop.classList.add('hide')
     }
 
-    function add() {
-      addminutes
-    }
-
-    function remove() {
-      removeminutes
-    }
-  
     function getMinutes() {
       let newMinutes = prompt('Quantos minutos?')
       if (!newMinutes) {
