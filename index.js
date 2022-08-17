@@ -8,6 +8,7 @@ import {
   secondsDisplay,
   addMinutes,
   removeMinutes,
+  buttonForest,
  } from "./elements.js"
  import Sound from "./sounds.js"
 
@@ -66,6 +67,10 @@ removeMinutes.addEventListener('click', function(){
 
   timer.updateMinutes(minutes - 5);
   timer.updateDisplay(minutes - 5, 0);
+})
+
+buttonForest.addEventListener('click', function() {
+  controls.playForest()
 })
 
 

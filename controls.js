@@ -1,7 +1,8 @@
 export default function Controls({
     buttonPause,
     buttonPlay,
-    buttonStop
+    buttonStop,
+    buttonForest,
   }) {
   
     function play() {
@@ -9,6 +10,7 @@ export default function Controls({
       buttonPause.classList.remove('hide')
       buttonStop.classList.remove('hide')
     }
+
   
     function pause() {
       buttonPause.classList.add('hide')
