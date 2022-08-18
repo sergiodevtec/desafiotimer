@@ -6,6 +6,7 @@ const secondsDisplay = document.querySelector('.seconds')
 const addMinutes = document.querySelector('.add')
 const removeMinutes = document.querySelector('.remove')
 const buttonForest = document.querySelector('.forest')
+const buttonChuva = document.querySelector('.rain')
 
 
 
@@ -19,4 +20,5 @@ export  {
     addMinutes,
     removeMinutes,
     buttonForest,
+    buttonChuva,
 }

@@ -9,6 +9,7 @@ import {
   addMinutes,
   removeMinutes,
   buttonForest,
+  buttonChuva,
  } from "./elements.js"
  import Sound from "./sounds.js"
 
@@ -70,7 +71,11 @@ removeMinutes.addEventListener('click', function(){
 })
 
 buttonForest.addEventListener('click', function() {
-  controls.playForest()
+  sound.playForest()
+})
+
+buttonChuva.addEventListener('click', function() {
+  sound.playChuva()
 })
 
 
