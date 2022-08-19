@@ -23,6 +23,10 @@ export default function() {
         chuvaAudio.play()
     }
 
+    function playCafeteria(){
+        cafeteriaAudio.play()
+    }
+
     function timeEnd() {
         kitchenTimer.play()
     }
@@ -34,5 +38,6 @@ export default function() {
         bgAudio,
         playForest,
         playChuva,
+        playCafeteria,
     }
 }

@@ -7,8 +7,7 @@ const addMinutes = document.querySelector('.add')
 const removeMinutes = document.querySelector('.remove')
 const buttonForest = document.querySelector('.forest')
 const buttonChuva = document.querySelector('.rain')
-
-
+const buttonCafeteria = document.querySelector('.coffe-shop')
 
 
 export  {
@@ -21,4 +20,5 @@ export  {
     removeMinutes,
     buttonForest,
     buttonChuva,
+    buttonCafeteria,
 }

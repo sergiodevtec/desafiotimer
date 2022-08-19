@@ -10,6 +10,7 @@ import {
   removeMinutes,
   buttonForest,
   buttonChuva,
+  buttonCafeteria,
  } from "./elements.js"
  import Sound from "./sounds.js"
 
@@ -76,6 +77,10 @@ buttonForest.addEventListener('click', function() {
 
 buttonChuva.addEventListener('click', function() {
   sound.playChuva()
+})
+
+buttonCafeteria.addEventListener('click', function() {
+  sound.playCafeteria()
 })
 
 
