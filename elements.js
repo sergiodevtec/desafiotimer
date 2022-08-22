@@ -8,6 +8,8 @@ const removeMinutes = document.querySelector('.remove')
 const buttonForest = document.querySelector('.forest')
 const buttonChuva = document.querySelector('.rain')
 const buttonCafeteria = document.querySelector('.coffe-shop')
+const buttonLareira = document.querySelector('.fire')
+
 
 
 export  {
@@ -21,4 +23,5 @@ export  {
     buttonForest,
     buttonChuva,
     buttonCafeteria,
+    buttonLareira,
 }

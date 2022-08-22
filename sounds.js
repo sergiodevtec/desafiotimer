@@ -23,8 +23,12 @@ export default function() {
         chuvaAudio.play()
     }
 
-    function playCafeteria(){
+    function playCafeteria() {
         cafeteriaAudio.play()
+    }
+
+    function playLareira() {
+        lareiraAudio.play()
     }
 
     function timeEnd() {
@@ -39,5 +43,6 @@ export default function() {
         playForest,
         playChuva,
         playCafeteria,
+        playLareira,
     }
 }

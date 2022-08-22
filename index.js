@@ -11,6 +11,7 @@ import {
   buttonForest,
   buttonChuva,
   buttonCafeteria,
+  buttonLareira,
  } from "./elements.js"
  import Sound from "./sounds.js"
 
@@ -81,6 +82,10 @@ buttonChuva.addEventListener('click', function() {
 
 buttonCafeteria.addEventListener('click', function() {
   sound.playCafeteria()
+})
+
+buttonLareira.addEventListener('click', function() {
+  sound.playLareira()
 })
 
 
