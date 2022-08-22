@@ -74,6 +74,7 @@ removeMinutes.addEventListener('click', function(){
 
 buttonForest.addEventListener('click', function() {
   sound.playForest()
+  buttonForest.classList.add('bg-blue')
 })
 
 buttonChuva.addEventListener('click', function() {

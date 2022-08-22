@@ -109,7 +109,9 @@ button {
   }
 
  
-  
+  .bg-blue {
+    background: rgb(22, 170, 228);
+  }
 
 
 
