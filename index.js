@@ -74,20 +74,44 @@ removeMinutes.addEventListener('click', function(){
 
 buttonForest.addEventListener('click', function() {
   sound.playForest()
-  buttonForest.classList.add('bg-blue')
+  removeBg()
+  setTimeout(() => {
+    buttonForest.classList.add('bg-blue')
+  }, 500)
 })
 
 buttonChuva.addEventListener('click', function() {
   sound.playChuva()
+  removeBg()
+  setTimeout(() => {
+    buttonChuva.classList.add('bg-blue')
+  }, 500)
 })
 
 buttonCafeteria.addEventListener('click', function() {
   sound.playCafeteria()
+  removeBg()
+  setTimeout(() => {
+    buttonCafeteria.classList.add('bg-blue')
+  }, 500)
 })
 
 buttonLareira.addEventListener('click', function() {
   sound.playLareira()
+  removeBg()
+  setTimeout(() => {
+    buttonLareira.classList.add('bg-blue')
+  }, 500)
 })
+
+function removeBg() {
+  buttonForest.classList.remove('bg-blue')
+  buttonChuva.classList.remove('bg-blue')
+  buttonCafeteria.classList.remove('bg-blue')
+  buttonLareira.classList.remove('bg-blue')
+}
+
+
 
 
 
