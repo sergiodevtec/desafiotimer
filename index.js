@@ -73,6 +73,7 @@ removeMinutes.addEventListener('click', function(){
 })
 
 buttonForest.addEventListener('click', function() {
+  removeAudio()
   sound.playForest()
   removeBg()
   setTimeout(() => {
@@ -81,6 +82,7 @@ buttonForest.addEventListener('click', function() {
 })
 
 buttonChuva.addEventListener('click', function() {
+  removeAudio()
   sound.playChuva()
   removeBg()
   setTimeout(() => {
@@ -89,6 +91,7 @@ buttonChuva.addEventListener('click', function() {
 })
 
 buttonCafeteria.addEventListener('click', function() {
+  removeAudio()
   sound.playCafeteria()
   removeBg()
   setTimeout(() => {
@@ -97,6 +100,7 @@ buttonCafeteria.addEventListener('click', function() {
 })
 
 buttonLareira.addEventListener('click', function() {
+  removeAudio()
   sound.playLareira()
   removeBg()
   setTimeout(() => {
@@ -109,6 +113,13 @@ function removeBg() {
   buttonChuva.classList.remove('bg-blue')
   buttonCafeteria.classList.remove('bg-blue')
   buttonLareira.classList.remove('bg-blue')
+}
+
+function removeAudio() {
+  sound.stopForest()
+  sound.stopChuva()
+  sound.stopCafeteria()
+  sound.stopLareira()
 }
 
 

@@ -35,6 +35,22 @@ export default function() {
         kitchenTimer.play()
     }
 
+    function stopForest() {
+        forestAudio.pause()
+    }
+
+    function stopChuva() {
+        chuvaAudio.pause()
+    }
+
+    function stopCafeteria() {
+        cafeteriaAudio.pause()
+    }
+
+    function stopLareira() {
+        lareiraAudio.pause()
+    }
+
 
     return {
         pressButton,
@@ -44,5 +60,9 @@ export default function() {
         playChuva,
         playCafeteria,
         playLareira,
+        stopForest,
+        stopChuva,
+        stopCafeteria,
+        stopLareira,
     }
 }
