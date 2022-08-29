@@ -19,6 +19,7 @@ export default function Timer({
   function reset() {
     updateDisplay(minutes, 0)
     clearTimeout(timerTimeOut)
+    Sounds().pararSom()
   }
 
   function countdown(){

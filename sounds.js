@@ -15,6 +15,10 @@ export default function() {
         bgAudio.play()
     }
 
+    function pararSom() {
+        bgAudio.pause()
+    }
+
     function playForest() {
         forestAudio.play()
     }
@@ -54,6 +58,7 @@ export default function() {
 
     return {
         pressButton,
+        pararSom,
         timeEnd,
         bgAudio,
         playForest,
@@ -64,5 +69,6 @@ export default function() {
         stopChuva,
         stopCafeteria,
         stopLareira,
+
     }
 }

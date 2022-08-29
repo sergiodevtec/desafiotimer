@@ -19,7 +19,6 @@ export default function Controls({
     function reset() {
       buttonPlay.classList.remove('hide')
       buttonPause.classList.add('hide')
-      buttonStop.classList.add('hide')
     }
 
     function getMinutes() {
